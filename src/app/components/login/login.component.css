@@ -1,0 +1,15 @@
+.align-center{
+	width: 40%;
+	margin: auto;
+}
+.login-card{
+	margin-top: 5%;
+	border-radius: 15px;
+}
+
+img{
+	height: 139px;
+    width: 198px;
+    padding: 13px;
+    margin-left: 120px;
+}

@@ -37,7 +37,7 @@ constructor(private studentService:StudentService) { }
  		if (r == true) {
  			let studentDelete = this.studentService.deleteStudent(index);
  			if(studentDelete) {
- 				// this.toastr.success("Success", "Student Deleted");
+ 				alert("Student Deleted");
  			} 
  			this.getStudentList();
  		}

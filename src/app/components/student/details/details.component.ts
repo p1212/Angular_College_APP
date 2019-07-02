@@ -29,7 +29,6 @@ index:any;
  		let getStudentDetail = this.studentService.getStudentDetails(index);
  		if(getStudentDetail) {
  			this.studentDetail = getStudentDetail.studentData;
- 			// this.toastr.success(getStudentDetail.message,"Success");
  		}
  	}
 }

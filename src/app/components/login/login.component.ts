@@ -39,9 +39,8 @@ export class LoginComponent implements OnInit {
 		if (data.code == 200) {
 			localStorage.setItem('userData', JSON.stringify(data.data));
 			this.router.navigate(['/']);
-			// this.toastr.success('Success', "Logged In Successfully");
 		}else{
-			// this.toastr.error('Failed', "Invalid Credentials");
+			alert("Invalid Credentials");
 		}
 	}
 

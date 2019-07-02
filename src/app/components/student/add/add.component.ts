@@ -44,11 +44,9 @@ private studentAddForm : FormGroup;
  		let studentRegister = this.studentService.doRegisterStudent(this.studentAddForm.value, this.index);
  		if(studentRegister) {
  			if (studentRegister.code == 200) {
- 				// this.toastr.success(studentRegister.message,"Success");
  				alert("SUCCESS")
  				this.router.navigate(['/']);
  			}else{
- 				// this.toastr.error(studentRegister.message,"Failed");
  				alert("FAILED")
  			}
  		}

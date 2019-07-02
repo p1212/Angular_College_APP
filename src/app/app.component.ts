@@ -14,42 +14,42 @@ export class AppComponent {
 	studentsList = [
 	{	
 		id : 1,
-		first_name : "Sangwin",
-		last_name : "Gawande",
-		email : "sangwin@yopmail.com",
-		phone : 9503733178,
+		first_name : "Megha",
+		last_name : "G",
+		email : "meghag@gmail.com",
+		phone : 9999999999,
 		department : "Science"
 	},
 	{
 		id : 2,
-		first_name : "Oman",
-		last_name : "Umir",
-		email : "oman@yopmail.com",
-		phone : 8574889658,
+		first_name : "Vishal",
+		last_name : "Kumar",
+		email : "vishalK@gmail.com",
+		phone : 8888888888,
 		department : "Commerce"
 	},
 	{
 		id : 3,
-		first_name : "Tina",
-		last_name : "Dillon",
-		email : "tina@yopmail.com",
-		phone : 7485889658,
+		first_name : "Neeraj",
+		last_name : "Kumar",
+		email : "neerajK@gmail.com",
+		phone : 7777777777,
 		department : "Science"
 	},
 	{
 		id : 4,
-		first_name : "John",
-		last_name : "Doe",
-		email : "john@yopmail.com",
-		phone : 9685589748,
+		first_name : "Praveen",
+		last_name : "Kumar",
+		email : "praveenK@gmail.com",
+		phone : 9898989898,
 		department : "Arts"
 	},
 	{
 		id : 5,
-		first_name : "Peter",
-		last_name : "Parker",
-		email : "peter@yopmail.com",
-		phone : 8595856547,
+		first_name : "Nethra",
+		last_name : "Vati",
+		email : "nethraV@gmail.com",
+		phone : 8989898989,
 		department : "Engineering"
 	}
 	];

@@ -10,7 +10,7 @@ export class UserService {
 
 	doLogin(data){
 		console.log("$$$$$$$$$$$$$$$$$$$$$$$$$")
-		if (data.email == "admin@yopmail.com" && data.password == "admin123") {
+		if (data.email == "admin@gmail.com" && data.password == "admin123") {
 			return {
 				code : 200,
 				message : "Login Successful",
